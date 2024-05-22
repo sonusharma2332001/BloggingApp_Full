@@ -27,8 +27,8 @@ app.use(cors({
 }));
 
 
-app.listen(3000, () => {
-    console.log('Server is Running on port 3000')
+app.listen(process.env.PORT, () => {
+    console.log('Server is Running on port',process.env.PORT)
 });
 
 app.use('/api/user', UserRoute);
