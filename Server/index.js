@@ -50,3 +50,5 @@ app.use((error, req, res, next) => {
         message,
     })
 });
+
+    // "build": "npm install && npm install --prefix Client && npm run build --prefix Client"
